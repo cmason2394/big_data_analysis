@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 
 #save csv file as pandas dataframe
-df = pd.read_csv('C:/Users/cassi/OneDrive/Documents/School/CTU/Big_data_analytics/Tweets.csv')
+df = pd.read_csv('airline_tweet_themes.csv')
 
 '''
 print(df.head())

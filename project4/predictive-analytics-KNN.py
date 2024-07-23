@@ -21,7 +21,7 @@ plt.plot(range(10))
 plt.figure(2)
 plt.plot(np.random.rand(50))
 
-file_path = 'C:/Users/cassi/OneDrive/Documents/School/CTU/Big_data_analytics/.spyder-py3/gait.csv'
+file_path = 'gait.csv'
 
 df = pd.read_csv(file_path)
 
